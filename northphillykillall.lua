@@ -2,6 +2,8 @@
 Hold out glock then execute
 https://www.roblox.com/games/8507378236/North-Philly-Being-made# ]]--
 
+local _________________ = "Players"
+local ________________ = "game"
 local _______________ = "GetPlayers"
 local ______________ = "DamageEvent"
 local _____________ = "Glock"
@@ -9,7 +11,7 @@ local ____________ = "Character"
 local ___________ = ____________._____________.______________
 local __________ = "LocalPlayer"
 local _________ = "FireServer"
-local ________ = game.Players
+local ________ = ________________._________________
 local _______ = ______.___________
 local ______ = ________.__________
 local _____ = ________:_______________()
@@ -22,6 +24,7 @@ for __ = 1,15 do
         end
     end
 end
+
 
 --[[yess we do trollage
 cancerous code goes uwu]]--
