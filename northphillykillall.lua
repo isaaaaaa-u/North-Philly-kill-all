@@ -2,10 +2,17 @@
 Hold out glock then execute
 https://www.roblox.com/games/8507378236/North-Philly-Being-made# ]]--
 
-for i = 1,15 do
-    for i, v in next, game.Players:GetPlayers() do
-        if v ~= game.Players.LocalPlayer then
-            game:GetService("Players").LocalPlayer.Character.Glock.DamageEvent:FireServer(v.Character.Humanoid)
+local _______ = game:GetService("Players").LocalPlayer.Character.Glock.DamageEvent
+local ______ = game.Players.LocalPlayer
+local _____ = game.Players:GetPlayers()
+local ____ = Character
+local _ = Humanoid
+for __ = 1,15 do
+    for __, ___ in next, _____ do
+        if ___ ~= ______ then
+            _______:FireServer(___.____._)
         end
     end
 end
+
+---yess we do trollage
